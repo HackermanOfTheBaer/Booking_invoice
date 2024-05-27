@@ -1,8 +1,7 @@
 ###################################
 #				                  #
 #	    BOOKING_SYTEM		      #
-#				                  #
-###################################
+
 This software is written in Python 3.12.3 
 Everything in the project related to SQL is written in MySQL 8.0.36
 
