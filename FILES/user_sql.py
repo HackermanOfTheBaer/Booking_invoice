@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 Salt = bytes(b'$2b$12$SDfvKZsx5rW/OYnLgeGlWu')
 config = {
         'user': 'root',
-        'password':'!azEDrfTG%',
+        'password':'',
         'host': '127.0.0.1',
         'database': 'bokhäimr'}
 
