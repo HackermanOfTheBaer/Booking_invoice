@@ -5,7 +5,7 @@ CREATE TABLE Användare(Username varchar(256) NOT NULL, PassW varchar(512) NOT N
 primary key(Username), foreign key(Kund_ID) references Kunder(Kund_ID));
  
 
-CREATE TABLE BOKNINGAR (Bokning_ID INT AUTO_INCREMENT PRIMARY KEY, Kund_ID INT, datum DATE NOT NULL, Pass_ID INT, pass_längd TIME, State INT not null,
+CREATE TABLE BOKNINGAR (Bokning_ID INT AUTO_INCREMENT PRIMARY KEY, Kund_ID INT, datum DATE NOT NULL, Pass_ID INT,
  message varchar(512), Ut_adress varchar(256), foreign key (Kund_ID) REFERENCES kunder(Kund_ID) ON UPDATE CASCADE);
 
 Create table PASS (PASS_INT INT, Varaktighet int, Start_tid TIME, PASS_NAMN varchar(12),Pris_pass INT, Primary key(PASS_INT));
